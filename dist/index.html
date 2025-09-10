@@ -1,28 +1,12 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <title>Admin (MSAL + Supabase)</title>
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <script type="module" crossorigin src="/assets/index-DczwbxCN.js"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Timekeeping App</title>
+    <script type="module" crossorigin src="/assets/index-DI7pov5-.js"></script>
   </head>
   <body>
-    <div style="max-width:500px;margin:3rem auto;">
-      <h1>Admin — Sign in</h1>
-      <button id="msal-login" style="display:block;margin:1rem 0;padding:.5rem 1rem;">Sign in with Microsoft</button>
-      <div id="status" style="color:#444;margin-top:.5rem"></div>
-    </div>
-
-    <script>
-      // Set runtime config here. For production, inject these from your server or build pipeline.
-      window.APP_CONFIG = {
-        AZURE_CLIENT_ID: "abc3d490-ea34-4494-8827-8540725c97d5",
-        AZURE_TENANT_ID: "d82d4043-f91b-4578-9c59-f7a5eadc66ab", // or your tenant id
-        SUPABASE_URL: "https://urridrblvxecnbhniptz.supabase.co",
-        SUPABASE_ANON_KEY: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVycmlkcmJsdnhlY25iaG5pcHR6Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTUxNDc1NzUsImV4cCI6MjA3MDcyMzU3NX0.o6wLAB29imsBY8U2-uBl5UN-trZJ96F9FDgSgyM_4LM"
-      };
-    </script>
-
-    <!-- main.js is an ES module that imports the npm packages (bundled or served by ESM-capable dev server) -->
+    <div id="root"></div>
   </body>
 </html>
